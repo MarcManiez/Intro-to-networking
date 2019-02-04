@@ -17,7 +17,7 @@ module Spoilers
     end
 
     def payload
-      @bytes[12...@bytes.length]
+      @bytes[14...@bytes.length]
     end
   end
 end
